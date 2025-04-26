@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Information -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhancements</title>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="other-body">
+
+  <!-- ========== HEADER SECTION ========== -->
+  <header class="job-head">
+    <!-- Top Bar with Logo -->
+    <div class="top-bar">
+      <div class="logo">
+        <img src="styles/images/shangyalogo.png" alt="Shangya Consultancy Logo">
+      </div>
+    </div>
+    
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li>
+          <a href="#">Employee and Employer Site</a>
+          <ul>
+            <li><a href="employer.html">Post a Job</a></li>
+            <li><a href="apply.html">Upload Resume</a></li>
+          </ul>
+        </li>
+        <li><a href="jobs.html">Job Listing</a></li>
+        <li><a href="inquiry.html">Inquiry</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main class="main-enhance">
+    <h1 id="h1-enhance">Enhancements</h1>
+
+    <!-- Responsive Design Section -->
+    <div class="card-enhance">
+      <div class="card-header" onclick="this.nextElementSibling.classList.toggle('open')">
+        <h2>Responsive Design</h2>
+      </div>
+      <div class="card-content">
+        <p>We used media queries to make sure our website works on computers, tablets, and phones.</p>
+        
+        <!-- Font Size Adjustments -->
+        <h3>Font Size (all pages)</h3>
+        <p>Mobile device: reduced to 12px.<br>Tablet device: reduced to 16px.</p>
+        <div class="image-pair">
+          <figure>
+            <img src="styles/images/font-size-tablet.png" alt="Tablet font size">
+            <figcaption>Tablet device</figcaption>
+          </figure>
+          <figure>
+            <img src="styles/images/font-size-mobile.png" alt="Mobile font size">
+            <figcaption>Mobile device</figcaption>
+          </figure>
+        </div>
+
+        <!-- Header Adjustments -->
+        <h3>Header (index.html)</h3>
+        <p>Reduced spacing and resized headings for smaller screens.<br>Buttons resized to fit narrow viewports.</p>
+        <div class="image-pair">
+          <figure>
+            <img src="styles/images/header-tablet.png" alt="Tablet header">
+            <figcaption>Tablet device</figcaption>
+          </figure>
+          <figure>
+            <img src="styles/images/header-mobile.png" alt="Mobile header">
+            <figcaption>Mobile device</figcaption>
+          </figure>
+        </div>
+
+        <!-- Navigation Menu Adjustments -->
+        <h3>Navigation menu (all pages)</h3>
+        <p>Font size and padding reduced for smaller devices.<br>Dropdown functionality kept for touch screens.</p>
+        <div class="image-pair">
+          <figure>
+            <img src="styles/images/nav-tablet.png" alt="Tablet navigation">
+            <figcaption>Tablet device</figcaption>
+          </figure>
+          <figure>
+            <img src="styles/images/nav-mobile.png" alt="Mobile navigation">
+            <figcaption>Mobile device</figcaption>
+          </figure>
+        </div>
+
+        <!-- Job Listings Adjustments -->
+        <h3>Job Listings (jobs.html)</h3>
+        <p>For tablet devices, change the padding size to fit the content better.<br>
+        For mobile devices, change from `display: grid;` to `display: contents;` to push the aside down, and change `position: sticky;` to `position: static;` to not move as the screen scrolls.</p>
+        <div class="image-pair">
+          <figure>
+            <img src="styles/images/jobs-tablet.png" alt="Tablet jobs">
+            <figcaption>Tablet device</figcaption>
+          </figure>
+          <figure>
+            <img src="styles/images/jobs-mobile.png" alt="Mobile jobs">
+            <figcaption>Mobile device</figcaption>
+          </figure>
+        </div>
+
+        <!-- Services Page Adjustments -->
+        <h3>Services Page (services.html)</h3>
+        <p>Changed the presentation from 3 service cards per line on desktop screens to 2 service cards presented on tablets and 1 service card presented on mobile devices.<br>Resized the image of each service card to fit tablets and mobile devices.</p>
+        <div class="image-pair">
+          <figure>
+            <img src="styles/images/services-tablet.png" alt="Tablet services">
+            <figcaption>Tablet device</figcaption>
+          </figure>
+          <figure>
+            <img src="styles/images/services-mobile.png" alt="Mobile services">
+            <figcaption>Mobile device</figcaption>
+          </figure>
+        </div>
+
+        <!-- Form Adjustments -->
+        <h3>Form (apply.html, employer.html, inquiry.html)</h3>
+        <p>Resize the forms to the appropriate size.</p>
+        <div class="image-pair">
+          <figure>
+            <img src="styles/images/form-tablet.png" alt="Tablet form">
+            <figcaption>Tablet device</figcaption>
+          </figure>
+          <figure>
+            <img src="styles/images/form-mobile.png" alt="Mobile form">
+            <figcaption>Mobile device</figcaption>
+          </figure>
+        </div>
+
+        <!-- Timetable Adjustments -->
+        <h3>Timetable (about.html)</h3>
+        <p>Resize to fit screen. Allow horizontal scroll on mobile and tablet.</p>
+        <div class="image-pair">
+          <figure>
+            <img src="styles/images/time-table.png" alt="timetable">
+            <figcaption>Time Table</figcaption>
+          </figure>
+        </div>
+
+        <!-- Footer Adjustments -->
+        <h3>Footer (all pages)</h3>
+        <p>Resizes to fit, and presents in one column on mobile and tablet devices.</p>
+        <div class="image-pair">
+          <figure>
+            <img src="styles/images/footer.png" alt="footer">
+            <figcaption>Footer</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- Animation Section -->
+    <div class="card-enhance">
+      <div class="card-header" onclick="this.nextElementSibling.classList.toggle('open')">
+        <h2>Animation</h2>
+      </div>
+      <div class="card-content">
+        <h3>Fade-up Animation</h3>
+        <p>Logo in all pages and the content that is under the menu bar of the home page fade up when the page loads.</p>
+
+        <h3>Navigation Underline Animation</h3>
+        <p>Navigation links show an underline when hovered or clicked.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- ========== FOOTER SECTION ========== -->
+  <footer>
+    <table class="foot">
+      <tr>
+        <td><img src="styles/images/youtube.png" alt="Youtube icon"><a href="youtube.com">Watch Our Presentation</a></td>
+        <td><img src="styles/images/team.png" alt="Team icon"><a href="about.html">About our Team</a></td>
+        <td><img src="styles/images/enhancements.png" alt="Enhancements icon"><a href="enhancements.html">Enhancements</a></td>
+        <td><img src="styles/images/letter.png" alt="Letter icon"><a href="mailto:j23041062@student.newinti.edu.my">Our Team Contact</a></td>
+      </tr>
+    </table>
+    <p class="social-title">Follow Us:</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/shangyaconsultancy"><img src="styles/images/fb.avif" alt="Facebook"></a>
+      <a href="https://www.linkedin.com/company/shangya/"><img src="styles/images/in.avif" alt="LinkedIn"></a>
+      <a href="https://www.xiaohongshu.com/user/profile/6242ec84000000001000d2b0"><img src="styles/images/xiaohongshu.avif" alt="Xiaohongshu"></a>
+    </div>
+    <hr>
+    <p class="copyright"><em>Copyright &copy; Swinburne University of Technology</em></p>
+  </footer>
+
+</body>
+</html>

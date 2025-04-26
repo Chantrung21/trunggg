@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inquiry - Shangya Consultancy</title>
+  <link href="styles/styles.css" rel="stylesheet">
+</head>
+<body class="other-body">
+  <!-- ========== HEADER SECTION ========== -->
+  <header class="job-head">
+    <!-- Top Bar with Logo -->
+    <div class="top-bar">
+      <div class="logo">
+        <img src="styles/images/shangyalogo.png" alt="Shangya Consultancy Logo">
+      </div>
+    </div>
+    
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li>
+          <a href="#">Employee and Employer Site</a>
+          <ul>
+            <li><a href="employer.html">Post a Job</a></li>
+            <li><a href="apply.html">Upload Resume</a></li>
+          </ul>
+        </li>
+        <li><a href="jobs.html">Job Listing</a></li>
+        <li><a href="inquiry.html">Inquiry</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main class="container-inquiry">
+    <section class="contact-info">
+      <img src="styles/images/man-table-typing-desk.jpg" alt="Typing at Desk">
+      <div class="contact-details">
+        <h1><u>About Us</u></h1>
+        <p><strong>Email:</strong> info@shangya.my</p>
+        <p><strong>Phone:</strong> +6012-9500193</p>
+        <p><strong>Address:</strong> Unit 8A, Level 1, Jalan Wan Kadir 1, Taman Tun Dr Ismail, 60000 Kuala Lumpur, Malaysia</p>
+      </div>
+    </section>
+  
+    <!-- FORM PAGE -->
+    <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+      <fieldset class="fieldset-inquiry">
+        <legend>Your Name *</legend>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstname">First Name *</label>
+            <input type="text" id="firstname" name="firstname" required maxlength="20">
+          </div>
+          <div class="form-group">
+            <label for="lastname">Last Name *</label>
+            <input type="text" id="lastname" name="lastname" required maxlength="20">
+          </div>
+        </div>
+      </fieldset>
+  
+      <fieldset>
+        <legend>Contact Information *</legend>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="text" id="phone" name="phone" required>
+          </div>
+        </div>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Message *</legend>
+        <textarea name="messages" rows="6" placeholder="Type your message here..." required></textarea>
+      </fieldset>
+  
+      <!-- Submit and Reset Buttons -->
+      <div class="form-buttons">
+        <input type="submit" value="Post">
+        <input type="reset" value="Reset">
+      </div>
+    </form>
+  </main>
+  <!-- ========== FOOTER SECTION ========== -->
+  <footer>
+    <table class="foot">
+      <tr>
+        <td><img src="styles/images/youtube.png" alt="Youtube icon"><a href="youtube.com">Watch Our Presentation</a></td>
+        <td><img src="styles/images/team.png" alt="Team icon"><a href="about.html">About our Team</a></td>
+        <td><img src="styles/images/enhancements.png" alt="Enhancements icon"><a href="enhancements.html">Enhancements</a></td>
+        <td><img src="styles/images/letter.png" alt="Letter icon"><a href="mailto:j23041062@student.newinti.edu.my">Our Team Contact</a></td>
+      </tr>
+    </table>
+    <p class="social-title">Follow Us:</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/shangyaconsultancy"><img src="styles/images/fb.avif" alt="Facebook"></a>
+      <a href="https://www.linkedin.com/company/shangya/"><img src="styles/images/in.avif" alt="LinkedIn"></a>
+      <a href="https://www.xiaohongshu.com/user/profile/6242ec84000000001000d2b0"><img src="styles/images/xiaohongshu.avif" alt="Xiaohongshu"></a>
+    </div>
+    <hr>
+    <p class="copyright"><em>Copyright &copy; Swinburne University of Technology</em></p>
+  </footer>
+</body>
+</html>
